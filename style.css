@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#6f737e;
+}
+.container{
+  display: grid;
+  padding-top: 25px;
+  justify-content: center;
+  row-gap: 15px; 
+  color:#06610b;
+}
+ 
+ .buttonBtn{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  padding-top: 45px;
+ 
+ }
+ .buttonBtnMega{
+  border-radius: 5px;
+  border: transparent;
+  width: 75px;
+  height: 35px;
+  color: #109196;
+  cursor: pointer;
+ }
+ .buttonBtnDupla{
+  border-radius: 5px;
+  border: transparent;
+  width: 75px;
+  height: 35px;
+  color: #109196;
+  cursor: pointer;
+ }
+ .buttonBtnLoto{
+  border-radius: 5px;
+  border: transparent;
+  width: 75px;
+  height: 35px;
+  color: #109196;
+  cursor: pointer;
+ }
+ .buttonBtnMega:hover{
+  background-color: rgb(54, 32, 44);
+  color: #109196;
+ }
+ .buttonBtnDupla:hover{
+  background-color: rgb(54, 32, 44);
+  color: #109196;
+ }
+ .buttonBtnLoto:hover{
+  background-color: rgb(54, 32, 44);
+  color: #109196;
+ }
