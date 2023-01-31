@@ -9,25 +9,24 @@ const min = 1;
 const max = 60;
 
 
+function randomNumber(min=1,max=60) {
 
-buttonSorteioMega.addEventListener("click", function randomNumber(min,max) {
-
-  min = 1;
-  max = 60;
-    let result = Math.random() * (max - min) + min;
   
-    result = Math.floor(result.toString())      0
-    insertResult.innerText = result
-    console.log(result)
-      
-      for (let i = 0; i < result.length; i++) {
-        result = Math.random() * (max - min) + min;
-        result = Math.floor(result)      
-        insertResult.innerText = result + result
+  let showNumber = [];
 
-       console.log('clicke'+result)
-      }
- 
-    })
+  for (let i =1; i<= 6; i++) {
+    showNumber.push(Math.floor(Math.random() * (max - min) + min));
+    
+    console.log(showNumber)
+    
+  }
+  result = showNumber;
+  insertResult.innerText = result
+     
+    }
+buttonSorteioMega.addEventListener("click",function(){
+  randomNumber()
+})
+    
 
 
