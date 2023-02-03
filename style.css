@@ -11,7 +11,7 @@ body{
   padding-top: 25px;
   justify-content: center;
   row-gap: 15px; 
-  color:#06610b;
+  color:#dbe9f13f;
 }
  
  .buttonBtn{
@@ -58,3 +58,8 @@ body{
   background-color: rgb(54, 32, 44);
   color: #109196;
  }
+ .number{
+  color: white;
+  gap: 15px;
+ }
+ 
