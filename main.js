@@ -20,7 +20,7 @@ function randomNumber(min=1,max=60) {
   }
   }
           
- result = showNumber
+ result = showNumber.sort()
  insertResult.innerText = result
 }
     function numberRandom(min=1,max=50){
@@ -34,7 +34,7 @@ function randomNumber(min=1,max=60) {
       }
       }
               
-     result = numberShow
+     result = numberShow.sort()
      insertResult.innerText = result
   }
     function numberLot(min=1,max=25){
@@ -49,7 +49,7 @@ function randomNumber(min=1,max=60) {
         }
         }
                 
-       result = randomArray
+       result = randomArray.sort()
        insertResult.innerText = result
     }
 buttonSorteioMega.addEventListener("click",function(){
