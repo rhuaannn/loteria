@@ -40,13 +40,16 @@ function randomNumber(min=1,max=60) {
   }
     function numberLot(min=1,max=25){
       
-        let randomArray = []
+        let randomArray = [5,6,7,12,13,14,19,20,21]
         
         while (randomArray.length < 15) {
+          
         let randomNum = Math.floor(Math.random() * (max - min)+min)
         
         if (randomArray.indexOf(randomNum) == -1) {
+
         randomArray.push(randomNum)
+
         }
         }
                 
